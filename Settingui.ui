@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>309</width>
+    <height>431</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:16px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>表盘分度值</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fenduzhi">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>130</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:15px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);
+border : none;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:16px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>摄像头序号或地址</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="camera_path">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:15px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);
+border : none;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:25px;
+font-weight:1000;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>设置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_finishsetting">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>330</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-radius:10;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-family:微软雅黑;
+	font-weight:700;
+	font-size:16px
+}
+QPushButton:hover{
+	border-radius:10;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family:微软雅黑;
+	font-weight:700;
+	font-size:16px
+}</string>
+    </property>
+    <property name="text">
+     <string>完成设置</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>271</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(74, 74, 74);
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:16px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>表盘总刻度</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="zongkedu">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:15px;
+font-weight:400;
+font-family:微软雅黑;
+color: rgb(255, 255, 255);
+border : none;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>fenduzhi</zorder>
+   <zorder>label_2</zorder>
+   <zorder>camera_path</zorder>
+   <zorder>label_3</zorder>
+   <zorder>btn_finishsetting</zorder>
+   <zorder>label_5</zorder>
+   <zorder>zongkedu</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
